@@ -23,7 +23,3 @@ def get_weather():
     weather_api_url = f"https://api.weatherapi.com/v1/forecast.json?key={api_key}&q={city}&days=1&aqi=no&alerts=yes"
     response = requests.get(weather_api_url)
     return jsonify(response.json())
-
-
-if __name__ == "__main__":
-    app.run(debug=False)
