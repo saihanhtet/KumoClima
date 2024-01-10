@@ -22,7 +22,6 @@ body {
   align-items: center;
   gap: 10px;
   justify-content: center;
-  transition: all 1s ease-in-out;
 }
 
 .justify-content-start {
@@ -155,7 +154,6 @@ input {
 .prompt-box li {
   margin: 0;
   width: 100%;
-  transition: all 0.2s ease-in;
 }
 .prompt-box li:hover {
   background-color: rgba(119, 118, 118, 0.308);
